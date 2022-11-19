@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Jakub Machu</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d3c19c9581.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo1.png" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Aspiring front-end developer</p>
+          <h1>
+            Hi, I'm <span>Jakub</span> Machu<br />
+            From Czechia!
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------------ABOUT SECTION------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/profilovka1.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm a former chef who decided to move into IT after a long period
+              of being head chef at the famous Trollstigen Kafe in Norway. I am
+              currently taking a retraining course at SDA (Software Development
+              Academy) focused on Java programming. The course covers Java
+              Script, HTML, CSS, SQL, JDBC, Hibernate, Angular and Spring.
+              Thanks to the breadth and variety of the course, I am slowly
+              figuring out what I want to focus in IT. Currently, I have found
+              my passion in front-end technologies like - Java Script, HTML and
+              CSS.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Eduacation</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Object Oriented Programming</span><br />Java</li>
+                <li>
+                  <span>Web Development</span><br />Java Script, HTML, CSS
+                </li>
+                <li><span>SQL</span><br />Databases</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022 - Current</span><br />Java, Java Script, HTML, CSS,
+                  SQL, JDBC, Hibernate, Angular and Spring at:
+                  <a href="https://sdacademy.cz/" class="sda"
+                    >Software Development Academy</a
+                  >
+                </li>
+                <li>
+                  <span>2022 - Current</span><br />Java at Udemy platform by:
+                  <a
+                    href="https://www.udemy.com/course/java-the-complete-java-developer-course/"
+                    class="timbuchalka"
+                    >Tim Buchalka</a
+                  >
+                </li>
+                <li>
+                  <span>2022 - Current</span><br />HTML & CSS at Udemy platform
+                  by:
+                  <a
+                    href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+                    class="jonasschmedtmann"
+                    >Jonas Schmedtmann</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>May. 2014</span><br />University of Hotel and Tourism,
+                  Graduation Certificate in:
+                  <a
+                    href="https://skolabaltaci.cz/hotelnictvi/"
+                    class="hospitality"
+                    >65-42-M/01 Hospitality</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------SERVICES SECTION------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Do you need a personal website?</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>Do you need need help with UI/UX?</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Java App</h2>
+            <p>
+              Do you need help with your bussiness problems and automatize tasks
+              using algorithms?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------PORTFOLIO SECTION------------- -->
+    <div id="porfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Lorem ipsum dolor</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam
+                sed tellus id magna elementum tincidunt. In enim a arcu
+                imperdiet malesuada.
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Lorem ipsum dolor</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam
+                sed tellus id magna elementum tincidunt. In enim a arcu
+                imperdiet malesuada.
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Lorem ipsum dolor</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam
+                sed tellus id magna elementum tincidunt. In enim a arcu
+                imperdiet malesuada.
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- -------------CONTACT SECTION------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>jacubmachu@gmail.com</p>
+            <p>+420 721 355 444</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/jakub-machu-61756a194"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.facebook.com/jakub.machu.90/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://github.com/JakubMachu"
+                ><i class="fa-brands fa-square-gitlab"></i
+              ></a>
+              <a href="https://www.instagram.com/jacub.machu/?hl=cs"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>

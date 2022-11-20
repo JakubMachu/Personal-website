@@ -292,6 +292,23 @@
       }
     </script>
     <script>
+      var lastScrollTop = 0;
+
+      window.addEventListener(
+        "scroll",
+        function () {
+          var st = window.pageYOffset || document.documentElement.scrollTop;
+          if (st > lastScrollTop) {
+            document.getElementById("sidemenu").style.right = "-100%";
+          } else {
+            document.getElementById("sidemenu").style.right = "0";
+          }
+          lastScrollTop = st;
+        },
+        false
+      );
+    </script>
+    <script>
       const scriptURL =
         "https://script.google.com/macros/s/AKfycbwSup5Z7-Efghx3I84t8o9c4NJ0qnYX-c67nGVFoWlKeJnG3JElVZPy2o7UpSReTEd_/exec";
       const form = document.forms["submit-to-google-sheet"];
